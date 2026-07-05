@@ -27,6 +27,7 @@ body {
   background-color: #000000;
   color: #fdfdfd;
   position: relative;
+  margin: 0px;
 }
 
 .banner {
@@ -129,12 +130,12 @@ h1 {
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 1440px;
-  height: auto;
+  height: 1620px;
   background-color: #000000;
   color: #fdfdfd;
   position: relative;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -194,3 +195,79 @@ h2 {
   padding-bottom: 16px;
 }
 
+#transform-world{
+  border: 1px solid;
+  border-color: #33A8DB;
+  width: 1438px;
+  height: 398px;
+  background-image: url(../images/woman-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 80%;
+}
+
+#transform-paragraph {
+  text-align: left;
+  font-family: 'Raleway-Black';
+  font-weight: 900;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-shadow: 3px 2px #33A8DB;
+  text-transform: lowercase;
+  width: 244px;
+  height: 400px;
+  margin-left: 198px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 100%;
+  padding-top: 122px;
+  box-sizing: border-box;
+}
+
+#evolua {
+  width: 900px;
+}
+
+#professional-challenges {
+  width: 1440px;
+  height: 960px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway-Regular';
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+[title="Homem lendo depoimentos em um tablet"] {
+  width: 659px;
+  height: 429px;
+}
+
+#junte-se {
+  width: 792px;
+}
+
+footer {
+  border: 2px solid;
+  border-color: rgba(51, 168, 219, 1);
+  border-bottom-color: #00000000;
+  width: 1440px;
+  height: 180px;
+  text-align: center;
+  background-image: linear-gradient(rgba(51, 168, 219, 0), rgba(51, 168, 219, 0.2), rgba(51, 168, 219, 0.2));
+}
+
+.dio-logo {
+  margin-top: 59px;
+}
+
+[href="https://dio.me"]{
+  color: #33A8DB;
+  font-family: 'Raleway-Bold';
+  font-weight: 700;
+  text-decoration: none;
+}
