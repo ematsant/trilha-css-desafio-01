@@ -19,14 +19,10 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1440px;
+  width: 1405px;
   height: auto;
   background-color: #000000;
   color: #fdfdfd;
-  position: relative;
   margin: 0px;
 }
 
@@ -38,24 +34,21 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
+  width: 1425px;
   height: auto;
   border-bottom:#1472B7 solid 1px;
   text-align: center;
-  position: relative;
   box-sizing: border-box;
 }
 
 .banner-content {
   display: flex;
   flex-direction: column;
-  align-self: auto;
   align-items: center;
   box-sizing: border-box;
   text-align: center;
-  width: 1440px;
+  width: 1422px;
   height: auto;
-  position: relative;
 }
 
 .logo {
@@ -65,7 +58,6 @@ body {
   margin-top: 56px;
   border-radius: 50%;
   background-color: RGBA(0, 0, 0, 0.3);
-  align-items: center;
   text-align: center;
 }
 
@@ -119,18 +111,18 @@ h1 {
 }
 
 #course-content {
-  background-color: #000000;
-  margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #000000;
   box-sizing: border-box;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  align-items: center;
+  width: 1422px;
   height: 1620px;
   background-color: #000000;
   color: #fdfdfd;
@@ -158,7 +150,6 @@ h2 {
   font-weight: 400;
   width: 792px;
   color: #FFFFFF;
-  margin: 0px;
 }
 
 .modules-list {
@@ -196,9 +187,13 @@ h2 {
 }
 
 #transform-world{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid;
   border-color: #33A8DB;
-  width: 1438px;
+  border-right-color: transparent;
+  width: 1422px;
   height: 398px;
   background-image: url(../images/woman-code.png);
   background-repeat: no-repeat;
@@ -208,7 +203,7 @@ h2 {
 }
 
 #transform-paragraph {
-  text-align: left;
+  align-self: flex-start;
   font-family: 'Raleway-Black';
   font-weight: 900;
   font-size: 40px;
@@ -230,7 +225,7 @@ h2 {
 }
 
 #professional-challenges {
-  width: 1440px;
+  width: 1422px;
   height: 960px;
   align-items: center;
   display: flex;
@@ -252,10 +247,15 @@ h2 {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 2px solid;
   border-color: rgba(51, 168, 219, 1);
   border-bottom-color: #00000000;
-  width: 1440px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  width: 1420px;
   height: 180px;
   text-align: center;
   background-image: linear-gradient(rgba(51, 168, 219, 0), rgba(51, 168, 219, 0.2), rgba(51, 168, 219, 0.2));
